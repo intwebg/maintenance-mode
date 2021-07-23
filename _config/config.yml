@@ -1,0 +1,12 @@
+SilverStripe\Core\Injector\Injector:
+#  SilverStripe\MFA\Authenticator\LoginHandler:
+  SilverStripe\Security\MemberAuthenticator\LoginHandler:
+    class: IntWebG\MaintenanceModeLoginHandler
+
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    class: IntWebG\MaintenanceModeControllerExtension
+
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - IntWebG\MaintenanceModeExtension

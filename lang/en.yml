@@ -1,0 +1,8 @@
+en:
+  IntWebG\MaintenanceModeLoginHandler:
+    CANTLOGIN: "Sorry, you cannot connect to the CMS at this time. The website is currently under maintenance."
+  IntWebG\MaintenanceModePage:
+    PERMISSION_ADMIN: "Permet l'accès au site Internet pendant une maintenance"
+    DESCRIPTION: "Page de maintenance"
+  IntWebG\MaintenanceModeExtension:
+    MAINTENANCEMODE: "Maintenance mode"

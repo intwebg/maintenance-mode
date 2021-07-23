@@ -1,1 +1,29 @@
 
+{
+  "name": "intwebg/maintenance-mode",
+  "description": "Maintenance mode",
+  "homepage": "https://github.com/intwebg/maintenance-mode",
+  "keywords": ["silverstripe", "some-tag", "some-other-tag"],
+  "license": "MIT",
+  "authors": [
+    {"name": "Stéphane Guevremont","email": "stephane.guevremont@gmail.com"}
+  ],
+  "support": {
+    "issues": "https://github.com/intwebg/maintenance-mode/issues"
+  },
+  "require": {
+    "silverstripe/cms": "^4",
+    "silverstripe/framework": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+        "intwebg\\maintenance-mode\\": "src/"
+    }
+  },
+  "extra": {
+    "installer-name": "maintenance-mode",
+    "expose": [
+        "client"
+    ]
+  }
+}

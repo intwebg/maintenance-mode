@@ -1,15 +1,15 @@
 
 {
-  "name": "intwebg/maintenance-mode",
+  "name": "intwebg/silverstripe-maintenance-mode",
   "description": "Maintenance mode",
-  "homepage": "https://github.com/intwebg/maintenance-mode",
-  "keywords": ["silverstripe", "some-tag", "some-other-tag"],
+  "homepage": "https://github.com/intwebg/silverstripe-maintenance-mode",
+  "keywords": ["silverstripe", "maintenance", "login", "CMS"],
   "license": "MIT",
   "authors": [
     {"name": "Stéphane Guevremont","email": "stephane.guevremont@gmail.com"}
   ],
   "support": {
-    "issues": "https://github.com/intwebg/maintenance-mode/issues"
+    "issues": "https://github.com/intwebg/silverstripe-maintenance-mode/issues"
   },
   "require": {
     "silverstripe/cms": "^4",

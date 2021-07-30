@@ -28,8 +28,7 @@ namespace IntWebG {
                     }
                 }
             }
-            echo 'allo';
-            exit;
+
             return parent::doLogin($data, $form, $request);
         }
     }
